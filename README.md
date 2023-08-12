@@ -1,41 +1,32 @@
-# My 🏠 on the ☁️
+# El meu 🏠 al núvol ☁️
 
-My personal over-engineering site on the cloud.
+El meu perfil personal i amb més funcionalitats al núvol.
 
-## Motivation
+## Motivació
 
-> Sharing is learning!
+> Compartir és aprendre!
 
-I started this blog as a way to document and share the things I have learned and found useful in my journey as a software engineer.
+He clonat i ampliat aquesta pàgina web amb la intenció de tenir un perfil web utilitzant Next.js i React. En trobar el treball de Tuan Anh, em va agradar molt el seu treball i em va inspirar a utilitzar-lo. Per a expressar la meva gratitud i aportar al seu projecte, he afegit suport multiidioma utilitzant `next-i18next`, amb tres idiomes com exemple. A més, he afegit un Índex de Continguts (ToC) a la secció de Currículum.
 
-Writing and noting things down is a great way for me to solidify my understanding of new concepts and technologies,
-and I hope that my blog can be a helpful resource for others who are interested in web development, eCommerce, and related technologies.
+Estic profundament agraït a Tuan Anh per tot l'esforç que ha dedicat al seu projecte i estic disposat a col·laborar i millorar-lo encara més.
 
-I would be highly appreciated if you could leave your comments and thoughts on what I have written 🍻
+## Pila Tècnica
 
-## Tech stack
+Aquest blog està allotjat a [Vercel](https://vercel.com/), construït amb [Next.js](https://nextjs.org/) i [Tailwind CSS](https://tailwindcss.com/) utilitzant **Tailwind Nextjs Starter Blog**.
 
-This blog is hosted on [Vercel](https://vercel.com/), built with [Next.js](https://nextjs.org/) and [Tailwind CSS](https://tailwindcss.com/) using **Tailwind Nextjs Starter Blog**.
+Un gran agraïment a [Timothy Lin](https://twitter.com/timlrxx) pel bloc inicial minimalista, lleuger i fàcil de personalitzar.
 
-A huge thanks to [Timothy Lin](https://twitter.com/timlrxx) for the minimal, lightweight, and super easy-to-customize blog starter.
+Canvis principals que he afegit:
 
-A few major over-engineering-changes from the original repo:
+- 🌍 Suport multiidioma utilitzant `next-i18next`.
+- 📄 Afegit un Índex de Continguts (ToC) a la secció de Currículum.
 
-- ⚛️ Upgrading to **React 18**, **NextJS 13**
-- 🎉 Adopting **Typescript**, committing with [Conventional Commits](https://www.conventionalcommits.org/)
-- 📊 Monitoring site with [Umami](https://umami.is/) website analytics
-- 👀 Theming in dark mode with [Github dark dimmed](https://github.blog/changelog/2021-04-14-dark-and-dimmed-themes-are-now-generally-available/) colors for better contrast
-- 👨‍💻 Making a lot of changes to the UI, new homepage design, adding `ProfileCard`, `CareerTimeline` components, adding `/snippets`, `/resume` page, etc.
-- 📥 Bumping up `mdx-bundler`, `rehype`/`remark` plugins and dependencies to the latest version
+## Actius
 
-_This blog have a legacy version built with **Gatsby** which can be found [here](https://leo-blog-legacy.vercel.app/)_.
+Les imatges d'aquest blog provenen de [Unsplash](https://unsplash.com/), els gifs de [GIPHY](https://giphy.com/), i les il·lustracions de [Storyset](https://storyset.com/).
 
-## Assets
-
-The images in this blog are from [Unsplash](https://unsplash.com/), gifs from [GIPHY](https://giphy.com/), and illustrations are from [Storyset](https://storyset.com/).
-
-Thanks for the free resources 🙏
+Gràcies per les recursos gratuïts 🙏
 
 ---
 
-Copyright (c) 2023 Tuan Anh Huynh (Leo) - Alrights reserved.
+Drets d'autor (c) 2023 Roman Roset. Tots els drets reservats. Inspirat pel treball de [Tuan Anh Huynh (Leo)](https://github.com/hta218/leohuynh.dev).
