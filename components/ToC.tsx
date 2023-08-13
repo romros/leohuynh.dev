@@ -1,4 +1,6 @@
 import { useEffect, useRef } from 'react'
+import Image from 'next/image'
+import { useTranslation } from 'next-i18next'
 
 export default function ToC({ toc }) {
   const navRef = useRef(null)
@@ -72,8 +74,23 @@ export default function ToC({ toc }) {
     }
   }
 
+  const { t } = useTranslation('common')
+
   return (
     <nav ref={navRef} className="pl-0  md:sticky top-24 self-start">
+      <Image
+        src={'/static/images/logo.png'}
+        alt={t('avatarDescription')}
+        height={160}
+        width={160}
+        className="flex justify-center items-center  shadow-profile_img mb-8"
+        style={{
+          objectPosition: '100% 0%',
+          objectFit: 'cover',
+          width: '100%',
+          aspectRatio: '13/11',
+        }}
+      />
       <ul className="list-none pl-4">
         {toc.map((item, index) => (
           <li key={index} className="ml-4 my-1">

@@ -57,7 +57,7 @@ export function ProfileCard() {
         className="flex flex-col overflow-hidden bg-white shadow-cyan-100/50 transition-all duration-200 ease-out dark:bg-dark dark:shadow-cyan-700/50 xl:rounded-lg xl:shadow-lg"
       >
         <Image
-          src={'/static/images/logo.jpg'}
+          src={'/static/images/logo.png'}
           alt={t('avatarDescription')}
           width={550}
           height={350}

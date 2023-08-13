@@ -11,6 +11,9 @@ module.exports = {
   darkMode: 'class',
   theme: {
     extend: {
+      boxShadow: {
+        profile_img: '0px 20px 10px -10px rgba(0, 0, 0, 0.15)',
+      },
       gridTemplateColumns: {
         main: '15em 1fr',
       },

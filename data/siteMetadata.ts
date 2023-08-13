@@ -1,9 +1,9 @@
 export let siteMetadata = {
   siteUrl: 'https://www.leohuynh.dev',
   siteRepo: 'https://github.com/hta218/leohuynh.dev',
-  siteLogo: '/static/images/logo.jpg',
-  image: '/static/images/logo.jpg',
-  socialBanner: '/static/images/logo.jpg',
+  siteLogo: '/static/images/logo.png',
+  image: '/static/images/logo.png',
+  socialBanner: '/static/images/logo.png',
   email: 'leohuynh@pm.me',
   github: 'https://github.com/hta218',
   twitter: 'https://twitter.com/hta218_',
