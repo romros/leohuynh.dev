@@ -7,8 +7,6 @@ export default function ToC({ toc }) {
   const activeIdRef = useRef(null)
 
   useEffect(() => {
-    console.log('useEffect executed')
-
     const observerOptions = {
       rootMargin: '-10px 0px 0px 0px',
       threshold: 0,
@@ -55,7 +53,6 @@ export default function ToC({ toc }) {
       const header = document.querySelector(item.url)
       if (header) {
         observer.observe(header)
-        console.log('Observer added: ' + header.getAttribute('id'))
       }
     })
 

@@ -1,16 +1,11 @@
+import Image from 'next/image'
 import { useEffect, useState } from 'react'
 import { PageSeo } from 'components/SEO'
-import { BlogLinks } from '~/components/homepage/BlogLinks'
-import { FeaturedPosts } from '~/components/homepage/FeaturedPosts'
-import { Greeting } from '~/components/homepage/Greeting'
 import { Heading } from '~/components/homepage/Heading'
-import { ShortDescription } from '~/components/homepage/ShortDescription'
-import { TypedBios } from '~/components/homepage/TypedBios'
-import { ProfileCard } from '~/components/ProfileCard'
-import { Twemoji } from '~/components/Twemoji'
 import { getAllFilesFrontMatter } from '~/libs/mdx'
 import { useTranslation } from 'next-i18next'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
+import EmailButton from '~/components/homepage/EmailButton'
 
 export async function getStaticProps({ locale }) {
   let posts = getAllFilesFrontMatter(`${locale}/blog`)
@@ -30,27 +25,25 @@ export default function Home({ posts }) {
   return (
     <>
       <PageSeo title={t('siteMetadata.title')} description={t('siteMetadata.description')} />
-      <div className="mt-8 divide-y divide-gray-200 dark:divide-gray-700 md:mt-16">
-        <div className="space-y-2 md:my-4 md:space-y-5 md:pb-8 md:pt-6 xl:grid xl:grid-cols-3">
-          <div className="md:pr-8 xl:col-span-2">
-            <Greeting />
-            <div className="text-lg leading-8 text-gray-600 dark:text-gray-400">
-              <Heading />
-              <TypedBios />
-              <ShortDescription />
-              <BlogLinks />
-              <p className="my-8 flex">
-                <span className="mr-2">{t('happyReading')}</span>
-                <Twemoji emoji="clinking-beer-mugs" />
-              </p>
-            </div>
+      <div className="space-y-2 md:my-4 md:space-y-5 md:pb-8 md:pt-6 xl:grid xl:grid-cols-3">
+        <div className="md:pr-8 xl:col-span-2">
+          <div className="text-lg leading-8 text-gray-600 dark:text-gray-400">
+            <Heading />
+            <p className="my-0 md:my-16 md:mt-8  md:mb-0 text-neutral xl:leading-loose">
+              Seasoned full stack developer with over 25 years in the tech industry, specializing in
+              designing and implementing web and mobile applications. Expertise in a broad range of
+              front-end and back-end technologies, including HTML/CSS, JavaScript, Node.js,
+              AngularJS, React, Redux, Python, PHP, database management, and web architecture. I
+              also bring experience in deploying Android applications.
+            </p>
           </div>
-          <div className="hidden xl:block">
-            <ProfileCard />
+        </div>
+        <div className="flex flex-col items-center justify-start h-full pb-6">
+          <div className="dropdown dropdown-hover">
+            <EmailButton email="roman.roset@email.com" />
           </div>
         </div>
       </div>
-      <FeaturedPosts posts={posts} />
     </>
   )
 }

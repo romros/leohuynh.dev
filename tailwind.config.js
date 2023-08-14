@@ -238,9 +238,5 @@ module.exports = {
   variants: {
     typography: ['dark'],
   },
-  plugins: [
-    require('@tailwindcss/forms'),
-    require('@tailwindcss/typography'),
-    require('flowbite/plugin'),
-  ],
+  plugins: [require('@tailwindcss/forms'), require('@tailwindcss/typography')],
 }
