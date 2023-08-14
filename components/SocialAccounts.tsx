@@ -1,6 +1,6 @@
 import { Facebook, Github, Linkedin, Mail, Youtube } from 'lucide-react'
 import { siteMetadata } from '~/data/siteMetadata'
-import Rg from '~/icons/researchgate.svg'
+import Researchgate from '~/icons/researchgate.svg'
 
 export default function SocialAccounts({
   showGithub = true,
@@ -113,7 +113,7 @@ export default function SocialAccounts({
             rel="noopener noreferrer"
           >
             <span className="sr-only">ResearchGate</span>
-            <Rg className="w-12 h-12 -m-2.5" fill="none" stroke="currentColor" />
+            <Researchgate className="w-12 h-12 -m-2.5" fill="none" stroke="currentColor" />
           </a>
         )}
       </div>
