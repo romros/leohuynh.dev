@@ -10,20 +10,18 @@ const EmailButton: React.FC<EmailButtonProps> = ({ email = 'roman.roset@email.co
   const [successMessage, setSuccessMessage] = useState(false)
   const [dropdownOpen, setDropdownOpen] = useState(false)
 
-  const clickHandler = () => {
+  const clickHandler = (e) => {
+    e.preventDefault()
     copy(email)
     setSuccessMessage(true)
-    setTimeout(() => setSuccessMessage(false), 2000)
+    setTimeout(() => {
+      setSuccessMessage(false)
+      setDropdownOpen(false) // Tanco el menú desplegable després de 2 segons
+    }, 2000)
   }
 
   return (
-    <div
-      className="relative inline-block text-left"
-      onMouseOver={() => setDropdownOpen(true)}
-      onMouseOut={() => setDropdownOpen(false)}
-      onFocus={() => setDropdownOpen(true)} // Afegit aquesta línia
-      onBlur={() => setDropdownOpen(false)} // Afegit aquesta línia
-    >
+    <div className="relative inline-block text-left">
       <div className="min-w-[180px]">
         <button
           onClick={() => setDropdownOpen(!dropdownOpen)}
@@ -44,9 +42,10 @@ const EmailButton: React.FC<EmailButtonProps> = ({ email = 'roman.roset@email.co
               <li>
                 <a
                   className="flex ml-auto gap-2 px-4 py-2 w-full text-left hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                  href="mailto:work@damiandemasi.com"
+                  href="mailto:{email}"
                   target="_blank"
                   rel="noreferrer"
+                  onClick={() => setDropdownOpen(false)} // Tanco el menú desplegable al fer clic
                 >
                   <svg {...commonSVGProps}>
                     <path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>

@@ -25,7 +25,7 @@ export default function Home({ posts }) {
   return (
     <>
       <PageSeo title={t('siteMetadata.title')} description={t('siteMetadata.description')} />
-      <div className="space-y-2 md:my-4 md:space-y-5 md:pb-8 md:pt-6 xl:grid xl:grid-cols-3">
+      <div className="space-y-16 md:my-4 md:space-y-5 md:pb-8 md:pt-6 xl:grid xl:grid-cols-3">
         <div className="md:pr-8 xl:col-span-2">
           <div className="text-lg leading-8 text-gray-600 dark:text-gray-400">
             <Heading />
@@ -38,10 +38,8 @@ export default function Home({ posts }) {
             </p>
           </div>
         </div>
-        <div className="flex flex-col items-center justify-start h-full pb-6">
-          <div className="dropdown dropdown-hover">
-            <EmailButton email="roman.roset@email.com" />
-          </div>
+        <div className="flex flex-col items-center justify-start h-full pb-6 mt-16">
+          <EmailButton email="roman.roset@email.com" />
         </div>
       </div>
     </>
