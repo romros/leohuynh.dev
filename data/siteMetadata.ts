@@ -1,15 +1,15 @@
 export let siteMetadata = {
-  siteUrl: 'https://www.leohuynh.dev',
-  siteRepo: 'https://github.com/hta218/leohuynh.dev',
+  siteUrl: 'https://romanroset.vercel.app/ca/',
+  siteRepo: 'https://github.com/romros/romanroset.dev',
   siteLogo: '/static/images/logo.png',
   image: '/static/images/logo.png',
   socialBanner: '/static/images/logo.png',
-  email: 'leohuynh@pm.me',
-  github: 'https://github.com/hta218',
-  twitter: 'https://twitter.com/hta218_',
-  facebook: 'https://facebook.com/hta218',
-  youtube: 'https://www.youtube.com/@hta218_',
-  linkedin: 'https://www.linkedin.com/in/hta218/',
+  email: 'romanroset@gmail.com',
+  github: 'https://romanroset.vercel.app/ca/',
+  twitter: 'https://twitter.com/romanroset',
+  facebook: '',
+  youtube: '',
+  linkedin: '',
   locale: 'en-US',
   analyticsURL: 'https://analytics.leohuynh.dev/share/jkwRskv0/leohuynh.dev',
   analytics: {
@@ -19,9 +19,9 @@ export let siteMetadata = {
     googleAnalyticsId: '', // e.g. UA-000000-2 or G-XXXXXXX
   },
   socialAccounts: {
-    github: 'hta218',
-    twitter: 'hta218_',
-    linkedin: 'hta218',
+    github: 'romros',
+    twitter: 'romanroset',
+    linkedin: '',
   },
 }
 
