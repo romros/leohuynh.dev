@@ -14,7 +14,10 @@
     "shortIntro2": "I currently work at the .cat Foundation.",
     "projectManager": "IT project and process manager",
     "fullstackdev": "Full Stack Developer",
-    "seniordev": "Senior Software Engineer"
+    "seniordev": "Senior Software Engineer",
+    "openInEmailClient": "Open in email client",
+    "emailCopied": "Copied!",
+    "copyEmail": "Copy email"
   },
 
   "happyReading": "Happy reading",

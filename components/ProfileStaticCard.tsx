@@ -1,11 +1,8 @@
 import Image from 'next/image'
 import React from 'react'
 import { ProfileCardInfo } from './ProfileInfo'
-import { useTranslation } from 'next-i18next'
 
 export function ProfileStaticCard() {
-  const { t } = useTranslation('common')
-
   return (
     <div className="mb-8">
       <div className="flex flex-col overflow-hidden bg-white transition-all duration-200 ease-out dark:bg-gray-950">

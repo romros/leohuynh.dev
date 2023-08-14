@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import { useEffect, useState } from 'react'
-import LocationPin from '~/icons/locationPin.svg'
 import { useTranslation } from 'next-i18next'
+import { MapPin } from 'lucide-react'
 
 export function Heading() {
   const [isAnimated1, setIsAnimated1] = useState(true)
@@ -52,7 +52,7 @@ export function Heading() {
 
 const LocationInfo = () => (
   <div className="mb-0 flex items-center text-gray-700 dark:text-gray-200">
-    <LocationPin className="h-4 w-4 lg:h-5 lg:w-5 xl:h-6 xl:w-6" />
+    <MapPin className="h-4 w-4 lg:h-5 lg:w-5 xl:h-6 xl:w-6" />
     <p className="px-2">Barcelona, Catalunya</p>
   </div>
 )
@@ -94,9 +94,9 @@ const RoleImages = ({ isAnimated2, isAnimated3 }) => (
         <Image
           src="/static/images/logo.png"
           alt="Roman Roset"
-          width={288} // Aquestes dimensions es poden ajustar, però no afectaran l'aspecte visual degut als estils que ja has definit amb TailwindCSS.
-          height={288}
-          className="shadow-profile_img mb-8 absolute top-0 left-0 w-full h-full object-cover"
+          layout="fill"
+          objectFit="cover"
+          className="shadow-profile_img mb-8 absolute top-0 left-0"
         />
       </div>
     </div>
@@ -107,7 +107,7 @@ const RolesHeader = () => {
   const { t } = useTranslation('common')
 
   return (
-    <h1 className="mb-12 font-bold font-poppins text-2xl md:text-3xl lg:text-4xl inline-block subpixel-antialiased">
+    <h1 className="mb-6 md:mb-12 font-bold font-poppins text-2xl md:text-3xl lg:text-4xl inline-block subpixel-antialiased">
       {t('intro.projectManager')}
       <br />
       {t('intro.fullstackdev')}

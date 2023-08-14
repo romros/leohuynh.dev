@@ -1,5 +1,6 @@
 import copy from 'copy-to-clipboard'
-import React, { useState } from 'react'
+import { useTranslation } from 'next-i18next'
+import React, { use, useState } from 'react'
 import Dropdown from '~/icons/dropdown.svg'
 
 interface EmailButtonProps {
@@ -7,6 +8,7 @@ interface EmailButtonProps {
 }
 
 const EmailButton: React.FC<EmailButtonProps> = ({ email = 'roman.roset@email.com' }) => {
+  const { t } = useTranslation('common')
   const [successMessage, setSuccessMessage] = useState(false)
   const [dropdownOpen, setDropdownOpen] = useState(false)
 
@@ -50,7 +52,7 @@ const EmailButton: React.FC<EmailButtonProps> = ({ email = 'roman.roset@email.co
                   <svg {...commonSVGProps}>
                     <path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
                   </svg>
-                  Open in email client
+                  {t('intro.openInEmailClient')}
                 </a>
               </li>
               <li>
@@ -68,7 +70,7 @@ const EmailButton: React.FC<EmailButtonProps> = ({ email = 'roman.roset@email.co
                       </>
                     )}
                   </svg>
-                  {successMessage ? 'Copied!' : 'Copy email'}
+                  {successMessage ? t('intro.emailCopied') : t('intro.copyEmail')}
                 </button>
               </li>
             </ul>

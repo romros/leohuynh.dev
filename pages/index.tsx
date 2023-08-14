@@ -3,7 +3,12 @@ import { PageSeo } from 'components/SEO'
 import { Heading } from '~/components/homepage/Heading'
 import { useTranslation } from 'next-i18next'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
+import XIcon from '~/icons/x.svg'
+import { siteMetadata } from '~/data/siteMetadata'
+import { Backpack, Github, Linkedin, Mail, MapPin } from 'lucide-react'
+
 import EmailButton from '~/components/homepage/EmailButton'
+import SocialAccounts from '~/components/SocialAccounts'
 
 export async function getStaticProps({ locale }) {
   const translations = await serverSideTranslations(locale, ['common'])
@@ -31,6 +36,14 @@ export default function Home() {
         </div>
         <div className="mt-16 pb-6 h-full flex flex-col items-center justify-start">
           <EmailButton email="roman.roset@email.com" />
+          <SocialAccounts
+            showGithub={true}
+            showTwitter={true}
+            showMail={false}
+            showFacebook={false}
+            showYoutube={false}
+            showLinkedin={false}
+          />
         </div>
       </div>
     </>

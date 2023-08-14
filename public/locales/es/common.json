@@ -14,7 +14,10 @@
     "shortIntro2": "Actualmente trabajo en la Fundación .cat",
     "projectManager": "Gestor de Proyectos y Procesos TI",
     "fullstackdev": "Desarrollador Full Stack",
-    "seniordev": "Ingeniero de Software Senior"
+    "seniordev": "Ingeniero de Software Senior",
+    "openInEmailClient": "Abrir en el cliente de correo",
+    "emailCopied": "Copiado!",
+    "copyEmail": "Copia la dirección de correo"
   },
 
   "happyReading": "Feliz lectura",

@@ -5,11 +5,12 @@ export let siteMetadata = {
   image: '/static/images/logo.png',
   socialBanner: '/static/images/logo.png',
   email: 'romanroset@gmail.com',
-  github: 'https://romanroset.vercel.app/ca/',
+  github: 'https://github.com/romros',
   twitter: 'https://twitter.com/romanroset',
   facebook: '',
   youtube: '',
   linkedin: '',
+  researchgate: 'https://www.researchgate.net/profile/Roman-Roset-Mayals',
   locale: 'en-US',
   analyticsURL: 'https://analytics.leohuynh.dev/share/jkwRskv0/leohuynh.dev',
   analytics: {

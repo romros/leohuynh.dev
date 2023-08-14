@@ -29,6 +29,7 @@
     "gray-matter": "^4.0.3",
     "image-size": "^1.0.2",
     "isomorphic-unfetch": "^4.0.2",
+    "lucide-react": "^0.268.0",
     "mdx-bundler": "^9.2.1",
     "next": "^13.4.9",
     "next-i18next": "^14.0.0",

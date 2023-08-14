@@ -22,7 +22,10 @@
     "shortIntro2": "Actualment treballo a la Fundacio .cat",
     "projectManager": "Gestor de Projectes i Processos IT",
     "fullstackdev": "Desenvolupador Full Stack",
-    "seniordev": "Enginyer de Programari Sènior"
+    "seniordev": "Enginyer de Programari Sènior",
+    "openInEmailClient": "Obre en el client de correu",
+    "emailCopied": "Copiat!",
+    "copyEmail": "Copia l'adreça de correu"
   },
 
   "introduction": "Sóc",
