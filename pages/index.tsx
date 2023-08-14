@@ -25,16 +25,18 @@ export default function Home({ posts }) {
   return (
     <>
       <PageSeo title={t('siteMetadata.title')} description={t('siteMetadata.description')} />
-      <div className="space-y-16 md:my-4 md:space-y-5 md:pb-8 md:pt-6 xl:grid xl:grid-cols-3">
+      <div className="space-y-16 md:my-4 md:space-y-5  md:pt-6 xl:grid xl:grid-cols-3">
         <div className="md:pr-8 xl:col-span-2">
           <div className="text-lg leading-8 text-gray-600 dark:text-gray-400">
             <Heading />
             <p className="my-0 md:my-16 md:mt-8  md:mb-0 text-neutral xl:leading-loose">
-              Seasoned full stack developer with over 25 years in the tech industry, specializing in
-              designing and implementing web and mobile applications. Expertise in a broad range of
-              front-end and back-end technologies, including HTML/CSS, JavaScript, Node.js,
-              AngularJS, React, Redux, Python, PHP, database management, and web architecture. I
-              also bring experience in deploying Android applications.
+              Professional amb més de 20 anys en tecnologia, expert en tecnologies frontend i
+              backend, amb experiència liderant processos, gestionant projectes tecnològics i
+              desenvolupant solucions de programari en startups, fundacions privades, institucions
+              educatives i centres de recerca.
+            </p>
+            <p className="my-0 md:my-16 md:mt-8  md:mb-0 text-neutral xl:leading-loose">
+              Actualment treballo a la Fundacio .cat{' '}
             </p>
           </div>
         </div>
