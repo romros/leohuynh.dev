@@ -10,8 +10,9 @@ export function ProfileStaticCard() {
           <div className="w-48 h-48 md:w-60 md:h-60 lg:w-72 lg:h-72 relative">
             <Image
               src="/static/images/logo.png"
+              width={550}
+              height={350}
               alt="Roman Roset"
-              layout="fill"
               objectFit="contain"
               className="mb-8 absolute top-0 left-0"
             />

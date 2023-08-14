@@ -1,6 +1,7 @@
+import Vercel from '~/icons/vercel.svg'
+import Rg from '~/icons/researchgate.svg'
 import { Facebook, Github, Linkedin, Mail, Youtube } from 'lucide-react'
 import { siteMetadata } from '~/data/siteMetadata'
-import Rg from '~/icons/researchgate.svg'
 
 export default function SocialAccounts({
   showGithub = true,
