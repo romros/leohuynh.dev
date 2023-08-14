@@ -1,11 +1,11 @@
 {
   "siteMetadata": {
-    "title": "El blog del Leo - El viatge de programació del Leo",
-    "author": "Leo Huynh",
-    "fullName": "Tuan Anh Huynh",
-    "headerTitle": "El blog del Leo - El viatge de programació del Leo",
-    "footerTitle": "El blog del Leo - El viatge de programació del Leo",
-    "description": "El viatge de programació del Leo - històries de treball i de vida a través del teclat d'un Enginyer de Software amb ment oberta",
+    "title": "Roman Roset - Enginyer de Software",
+    "author": "Roman Roset",
+    "fullName": "Roman Roset Mayals",
+    "headerTitle": "Roman Roset - Enginyer de Software",
+    "footerTitle": "Roman Roset",
+    "description": "Gestor de Projectes i Processos IT, Desenvolupador Full Stack i Enginyer de Programari Sènior",
     "language": "ca"
   },
 
@@ -16,6 +16,14 @@
   "menu_sobremi": "Sobre mi",
   "menu_curriculum": "Currículum",
   "greetingMessage": "Hola, company!",
+
+  "intro": {
+    "shortIntro1": "Professional amb més de 20 anys en tecnologia, expert en tecnologies frontend i backend, amb experiència liderant processos, gestionant projectes tecnològics i desenvolupant solucions de programari en startups, fundacions privades, institucions educatives i centres de recerca.",
+    "shortIntro2": "Actualment treballo a la Fundacio .cat",
+    "projectManager": "Gestor de Projectes i Processos IT",
+    "fullstackdev": "Desenvolupador Full Stack",
+    "seniordev": "Enginyer de Programari Sènior"
+  },
 
   "introduction": "Sóc",
   "name": "Tuan Anh Huynh",
@@ -82,7 +90,7 @@
   "buildWith": {
     "built_with": "Fet amb",
     "view_source": "Veure el codi font",
-    "copyri,ght_author": "El bloc de Leo: el viatge de codificació de Leo"
+    "copyri,ght_author": "Roman Roset - Enginyer de software"
   },
 
   "projects": {

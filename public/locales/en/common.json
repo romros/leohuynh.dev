@@ -1,12 +1,20 @@
 {
   "siteMetadata": {
-    "title": "Leo's blog - Leo's coding journey",
-    "author": "Leo Huynh",
-    "fullName": "Tuan Anh Huynh",
-    "headerTitle": "Leo's blog - Leo's coding journey",
-    "footerTitle": "Leo's blog - Leo's coding journey",
-    "description": "Leo's coding journey - work and life stories through the keyboard of an open-minded Software Engineer",
+    "title": "Roman Roset - Software Engineer",
+    "author": "Roman Roset",
+    "fullName": "Roman Roset Mayals",
+    "headerTitle": "Roman Roset - Software Engineer",
+    "footerTitle": "Roman Roset",
+    "description": "IT project and process manager, full stack developer, senior software engineer",
     "language": "en"
+  },
+
+  "intro": {
+    "shortIntro1": "Professional with over 20 years in technology, expert in frontend and backend technologies, with experience leading processes, managing technological projects, and developing software solutions in startups, private foundations, educational institutions, and research centers.",
+    "shortIntro2": "I currently work at the .cat Foundation.",
+    "projectManager": "IT project and process manager",
+    "fullstackdev": "Full Stack Developer",
+    "seniordev": "Senior Software Engineer"
   },
 
   "happyReading": "Happy reading",
@@ -82,7 +90,7 @@
   "buildWith": {
     "built_with": "Build with",
     "view_source": "View source",
-    "copyright_author": "Leo's blog - Leo's coding journey"
+    "copyright_author": "Roman Roset - Software engineer"
   },
 
   "projects": {

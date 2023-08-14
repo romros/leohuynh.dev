@@ -176,11 +176,13 @@ html.lightbox-loading * {
 
 /* === Hero animations === */
 :root {
-  --text-color-light: #1f2937; /* color de text per defecte (mode light) */
-  --text-color-dark: #a0aec0; /* color de text per al mode dark (text-gray-400 en Tailwind) */
-  --current-text-color: var(
-    --text-color-light
-  ); /* definim una variable que ens servirà per canviar els colors */
+  --text-color-light: rgb(75, 85, 99); /* color de text per defecte (mode light) */
+  --text-color-dark: rgb(
+    156,
+    163,
+    175
+  ); /* color de text per al mode dark (text-gray-400 en Tailwind) */
+  --current-text-color: var(--text-color-light);
 }
 
 .dark {

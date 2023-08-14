@@ -1,12 +1,20 @@
 {
   "siteMetadata": {
-    "title": "El blog de Leo - La aventura de programación de Leo",
-    "author": "Leo Huynh",
-    "fullName": "Tuan Anh Huynh",
-    "headerTitle": "El blog de Leo - La aventura de programación de Leo",
-    "footerTitle": "El blog de Leo - La aventura de programación de Leo",
-    "description": "La aventura de programación de Leo - historias de trabajo y vida a través del teclado de un Ingeniero de Software de mente abierta",
+    "title": "Roman Roset - Ingeniero de Software",
+    "author": "Roman Roset",
+    "fullName": "Roman Roset Mayals",
+    "headerTitle": "Roman Roset - Ingeniero de Software",
+    "footerTitle": "Roman Roset",
+    "description": "Gestor de Proyectos y Procesos TI, Desarrollador Full Stack, Ingeniero de Software Senior",
     "language": "es"
+  },
+
+  "intro": {
+    "shortIntro1": "Profesional con más de 20 años en tecnología, experto en tecnologías frontend y backend, con experiencia liderando procesos, gestionando proyectos tecnológicos y desarrollando soluciones de software en startups, fundaciones privadas, instituciones educativas y centros de investigación.",
+    "shortIntro2": "Actualmente trabajo en la Fundación .cat",
+    "projectManager": "Gestor de Proyectos y Procesos TI",
+    "fullstackdev": "Desarrollador Full Stack",
+    "seniordev": "Ingeniero de Software Senior"
   },
 
   "happyReading": "Feliz lectura",
@@ -82,7 +90,7 @@
   "buildWith": {
     "built_with": "Hecho con",
     "view_source": "Ver código fuente",
-    "copyright_author": "El blog de Leo: el viaje de codificación de Leo"
+    "copyright_author": "Roman Roset - Ingeniero de software"
   },
 
   "projects": {
