@@ -1,14 +1,13 @@
 import React from 'react'
-import { ProfileStaticCard } from '~/components/ProfileStaticCard'
 import { PageSeo } from '~/components/SEO'
 import type { AuthorLayoutProps } from '~/types'
 import { useTranslation } from 'next-i18next'
+import HandwritingWithImage from '~/components/HandwritingWithImage'
 
-export function AuthorLayout({ children }: AuthorLayoutProps) {
+export function AuthorLayout({ children, handwrittingFont }: AuthorLayoutProps) {
   const { t } = useTranslation('common') // utilitza 'common' si els teus strings estan a common.ts o canvia-ho pel nom adequat
 
   let title = t('menu_sobremi')
-  let description = t('about_description')
   return (
     <>
       <PageSeo
@@ -21,11 +20,16 @@ export function AuthorLayout({ children }: AuthorLayoutProps) {
             {title}
           </h1>
         </div>
-        <div className="items-start space-y-2 pt-8 xl:grid xl:grid-cols-3 xl:space-y-0">
-          <div className="prose prose-lg max-w-none pb-8 dark:prose-dark xl:col-span-2 xl:pr-10">
-            {children}
-          </div>
-          <ProfileStaticCard />
+
+        <div className="prose prose-lg max-w-none pb-8 dark:prose-dark xl:col-span-2 xl:pr-10">
+          {children}
+          <HandwritingWithImage
+            message="Si aquesta visió ressona amb la teva, estaré encantat de compartir experiències i aprendre junts."
+            handwrittingFont={handwrittingFont}
+            imagePath="/static/images/logo.png"
+            width={304}
+            height={304}
+          />
         </div>
       </div>
     </>

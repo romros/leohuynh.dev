@@ -6,6 +6,7 @@ import type { AuthorFrontMatter, BlogFrontMatter, MdxFrontMatter, SnippetFrontMa
 export interface AuthorLayoutProps {
   children: React.ReactNode
   frontMatter: BlogFrontMatter
+  handwrittingFont?: string
 }
 
 export interface ListLayoutProps {
