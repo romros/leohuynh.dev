@@ -1,18 +1,21 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document'
+
 class MyDocument extends Document {
   render() {
     return (
-      <Html lang="process.env.NEXT_PUBLIC_DEFAULT_LOCALE">
+      <Html lang={process.env.NEXT_PUBLIC_DEFAULT_LOCALE}>
         <Head>
-          <link rel="apple-touch-icon" sizes="76x76" href="/static/favicons/hat.png" />
-          <link rel="icon" type="image/png" sizes="32x32" href="/static/favicons/hat.png" />
-          <link rel="icon" type="image/jpg" sizes="16x16" href="/static/favicons/hat.jpg" />
+          {/* Using PNG for favicons */}
+          <link rel="apple-touch-icon" sizes="244x240" href="/static/favicons/enneagram.png" />
+          <link rel="icon" type="image/png" sizes="244x240" href="/static/favicons/enneagram.png" />
+          <link rel="mask-icon" href="/static/favicons/enneagram.png" color="#fff" />
           <link rel="manifest" href="/static/favicons/site.webmanifest" />
-          <link rel="mask-icon" href="/static/favicons/hat.png" color="#fff" />
+
           <meta name="msapplication-TileColor" content="#000000" />
           <meta name="theme-color" content="#000000" />
           <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
 
+          {/* Fonts */}
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
           <link
