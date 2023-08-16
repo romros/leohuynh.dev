@@ -92,6 +92,7 @@ export default function ToC({ toc }) {
         {toc.map((item, index) => (
           <li key={index} className="ml-4 my-1">
             <a
+              data-umami-event="resume-toc-link"
               href={item.url}
               onClick={(e) => handleLinkClick(e, item.url)}
               className="block py-0.5 text-gray-400 hover:text-gray-600 transition ease-in-out duration-150"

@@ -23,6 +23,7 @@ const ArticleItem = ({ article }) => {
 
   return (
     <button
+      data-umami-event="article-info-link"
       className={`
       ${styles.customButton}
       bg-white dark:bg-gray-800 p-4 rounded-lg shadow-md
@@ -34,6 +35,7 @@ const ArticleItem = ({ article }) => {
       onClick={handleCardClick}
     >
       <button
+        data-umami-event="article-info-link"
         className={`absolute top-2 right-2 cursor-pointer z-10 transition-all duration-300 rounded-full p-1 
     ${styles.customButton}
     ${isHovered ? 'text-blue-500 bg-blue-100' : 'text-gray-500 hover:bg-gray-200 hover:shadow-lg'}
@@ -79,6 +81,7 @@ const ArticleItem = ({ article }) => {
       </div>
 
       <a
+        data-umami-event="article-goto-link"
         href={generateScholarLink(article.doi)}
         target="_blank"
         rel="noopener noreferrer"

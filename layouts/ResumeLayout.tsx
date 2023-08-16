@@ -1,7 +1,6 @@
 import { PageSeo } from 'components/SEO'
 import { ScrollTopButton } from '~/components/ScrollTopButton'
 import ToC from '~/components/ToC'
-import stylesResume from './ResumeLayout.module.css'
 import { useTranslation } from 'next-i18next'
 
 export function ResumeLayout({ children, toc }) {
