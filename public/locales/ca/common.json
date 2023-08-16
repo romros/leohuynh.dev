@@ -86,6 +86,9 @@
 
   "about_description": "Més sobre mi i aquest bloc",
   "resume_description": "La meva carrera professional, experiència i habilitats.",
+  "about": {
+    "handwritting_sentence": "Si aquesta visió ressona amb la teva, estaré encantat de compartir experiències i aprendre junts."
+  },
 
   "year": "any",
   "month": "mes",
@@ -94,7 +97,7 @@
   "buildWith": {
     "built_with": "Fet amb",
     "view_source": "Veure el codi font",
-    "copyri,ght_author": "Roman Roset - Enginyer de software"
+    "copyright_author": "Roman Roset - Enginyer de software"
   },
 
   "projects": {

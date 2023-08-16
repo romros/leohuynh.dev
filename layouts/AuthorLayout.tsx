@@ -24,7 +24,7 @@ export function AuthorLayout({ children, handwrittingFont }: AuthorLayoutProps) 
         <div className="prose prose-lg max-w-none pb-8 dark:prose-dark xl:col-span-2 xl:pr-10">
           {children}
           <HandwritingWithImage
-            message="Si aquesta visió ressona amb la teva, estaré encantat de compartir experiències i aprendre junts."
+            message={t('about.handwritting_sentence')}
             handwrittingFont={handwrittingFont}
             imagePath="/static/images/logo.png"
             width={304}
