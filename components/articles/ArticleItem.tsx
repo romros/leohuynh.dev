@@ -33,6 +33,16 @@ const ArticleItem = ({ article }) => {
       onMouseLeave={() => setIsHovered(false)}
       onClick={handleCardClick}
     >
+      <button
+        className={`absolute top-2 right-2 cursor-pointer z-10 transition-all duration-300 rounded-full p-1 
+    ${styles.customButton}
+    ${isHovered ? 'text-blue-500 bg-blue-100' : 'text-gray-500 hover:bg-gray-200 hover:shadow-lg'}
+    dark:bg-gray-800 dark:text-white dark:hover:bg-gray-600 dark:hover:shadow-lg`}
+        onClick={handleCardClick}
+      >
+        <Info size={20} />
+      </button>
+
       <h2 className="pt-8 text-xl font-semibold mb-2 truncate">{article.title}</h2>
 
       <div className="mb-1 text-sm flex items-center justify-between">

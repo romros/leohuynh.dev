@@ -20,7 +20,7 @@ export function Header({ onToggleNav }: { onToggleNav: () => void }) {
               <div className="mr-3 flex items-center justify-center">
                 <NextImage
                   src="/static/images/logo.png"
-                  alt="Leo's Blog logo"
+                  alt="Roman Roset"
                   width={45}
                   height={45}
                   className="rounded-full"
