@@ -101,11 +101,11 @@
   },
 
   "projects": {
-    "projects_description": "Els meus projectes de codi obert i altres coses que he construït amb els meus companys de feina",
-    "projects_title": "Projectes",
-    "work_title": "treball",
+    "projects_description": "Alguns dels meus projectes professionals i personals",
+    "projects_title": "Projectes professionals",
+    "work_title": "Projectes professionals",
     "side_title": "Projectes paral·lels",
-    "learn_more": "Apendre més",
+    "learn_more": "Veure més",
     "built_with": "Fet amb"
   },
 

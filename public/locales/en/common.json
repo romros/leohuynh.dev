@@ -101,11 +101,11 @@
   },
 
   "projects": {
-    "projects_description": "My open-source side projects and stuff that I built with my colleagues at work",
+    "projects_description": "Some of my professional and personal projects",
     "projects_title": "Projects",
-    "work_title": "Work",
+    "work_title": "Professional projects",
     "side_title": "Side projects",
-    "learn_more": "Learn more",
+    "learn_more": "View more",
     "built_with": "Built with"
   },
 
