@@ -7,7 +7,7 @@ interface EmailButtonProps {
   email?: string
 }
 
-const EmailButton: React.FC<EmailButtonProps> = ({ email = 'roman.roset@email.com' }) => {
+const EmailButton: React.FC<EmailButtonProps> = ({ email = 'romanroset@proton.me' }) => {
   const { t } = useTranslation('common')
   const [successMessage, setSuccessMessage] = useState(false)
   const [dropdownOpen, setDropdownOpen] = useState(false)

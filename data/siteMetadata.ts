@@ -4,7 +4,7 @@ export let siteMetadata = {
   siteLogo: '/static/images/logo.png',
   image: '/static/images/logo.png',
   socialBanner: '/static/images/logo.png',
-  email: 'romanroset@gmail.com',
+  email: 'romanroset@proton.me',
   github: 'https://github.com/romros',
   twitter: 'https://twitter.com/romanroset',
   facebook: '',

@@ -15,7 +15,7 @@ export function Header({ onToggleNav }: { onToggleNav: () => void }) {
     <header className="supports-backdrop-blur: bg-slate-50/95 sticky top-0 z-50 overflow-visible py-3 backdrop-blur dark:bg-gray-900/75">
       <div className="mx-auto flex max-w-3xl items-center justify-between px-3 xl:max-w-5xl xl:px-0">
         <div className="flex items-center justify-between">
-          <Link href="/" aria-label="Leo's Blog">
+          <Link href="/" aria-label="t('siteMetadata.headerTitle)">
             <div className="flex items-center justify-between" data-umami-event="logo">
               <div className="mr-3 flex items-center justify-center">
                 <NextImage

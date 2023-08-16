@@ -35,7 +35,7 @@ export default function Home() {
           </div>
         </div>
         <div className="mt-16 pb-6 h-full flex flex-col items-center justify-start">
-          <EmailButton email="roman.roset@email.com" />
+          <EmailButton email="romanroset@proton.me" />
           <SocialAccounts
             showGithub={true}
             showTwitter={true}
