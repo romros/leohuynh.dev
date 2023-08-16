@@ -3,7 +3,15 @@ import type { Project } from '~/types'
 export let projectsData: Project[] = [
   {
     type: 'work',
-    title: 'Weaverse - Constructor de sitios web universal',
+    title: 'elteu.cat',
+    description: `Las herramientas de upselling y potenciación de conversiones construidas para apoyar el tema Minimog.`,
+    imgSrc: '/static/images/foxkit.jpg',
+    url: 'https://apps.shopify.com/foxkit?ref=leohuynh.dev',
+    builtWith: ['Koa.js', 'JWT', 'MongoDB', 'Polaris'],
+  },
+  {
+    type: 'work',
+    title: 'Fibroline',
     description: `El primer constructor de sitios web promovido por Hydrogen y potenciado por IA. Weaverse es un canal de ventas de Shopify que te permite crear un sitio web en minutos sin necesidad de programación.`,
     imgSrc: '/static/images/weaverse-hydrogen.jpg',
     url: 'https://www.weaverse.io?ref=leohuynh.dev',
@@ -11,7 +19,7 @@ export let projectsData: Project[] = [
   },
   {
     type: 'work',
-    title: 'Pilot - Tema Hydrogen para Shopify',
+    title: 'Painometer',
     description:
       'El primer tema impulsado por Hydrogen para Shopify. Pilot es un tema de Shopify que te permite construir una tienda virtual extremadamente rápida con todas las ventajas de Hydrogen.',
     imgSrc: '/static/images/weaverse-pilot.jpg',
@@ -21,7 +29,7 @@ export let projectsData: Project[] = [
   },
   {
     type: 'work',
-    title: 'Minimog - Tema para Shopify',
+    title: 'Dormir Welltech',
     description: `La próxima generación del tema Shopify con mayor conversión y extensibilidad (mejor vendido semanalmente y tendencia top en la categoría eCommerce de Themeforest).`,
     imgSrc: '/static/images/minimog.jpg',
     url: 'https://themeforest.net/item/minimog-the-high-converting-shopify-theme/33380968?ref=leohuynh.dev',
@@ -29,73 +37,18 @@ export let projectsData: Project[] = [
   },
   {
     type: 'work',
-    title: 'Fox Kit - Aplicación para Shopify',
+    title: 'Calma tu ansiedad - WellTech',
     description: `Las herramientas de upselling y potenciación de conversiones construidas para apoyar el tema Minimog.`,
     imgSrc: '/static/images/foxkit.jpg',
     url: 'https://apps.shopify.com/foxkit?ref=leohuynh.dev',
     builtWith: ['Koa.js', 'JWT', 'MongoDB', 'Polaris'],
   },
+
   {
     type: 'self',
     title: 'Sitio web personal',
     imgSrc: '/static/images/leoblog.jpg',
     repo: 'leohuynh.dev',
     builtWith: ['Next.js', 'Tailwind', 'Typescript', 'Prisma', 'Umami'],
-  },
-  {
-    type: 'self',
-    title: 'Tema inicial para Shopify',
-    imgSrc: '/static/images/shopify-theme-store.png',
-    repo: 'shopify-theme-starter',
-    builtWith: ['Shopify', 'Liquid', 'Webpack', 'Tailwind', 'Theme-kit'],
-  },
-  {
-    type: 'self',
-    title: 'Soluciones Exercism',
-    imgSrc: '/static/images/exercism.png',
-    repo: 'exercism-solutions',
-    builtWith: ['Javascript', 'Bash', 'Exercism'],
-  },
-  {
-    type: 'self',
-    title: 'Barra de carga animada',
-    imgSrc: '/static/images/animate-loading-bar.jpg',
-    repo: 'animate-loading-bar',
-    builtWith: ['Javascript', 'CSS'],
-  },
-  {
-    type: 'self',
-    title: 'Plantilla Shopify KoaJS React',
-    imgSrc: '/static/images/shopify-app-store.png',
-    repo: 'shopify-koajs-react-boilerplate',
-    builtWith: ['Koa.js', 'JWT', 'MongoDB', 'Polaris'],
-  },
-  {
-    type: 'self',
-    title: 'Rompecabezas de imágenes de Viaje a Egipto',
-    imgSrc: '/static/images/travel-egypt.jpg',
-    repo: 'Travel_Egypt',
-    builtWith: ['Python', 'Pygame'],
-  },
-  {
-    type: 'self',
-    title: 'Galería de carga infinita',
-    imgSrc: '/static/images/infinite-gallery.jpg',
-    repo: 'infinite-gallery',
-    builtWith: ['React', 'Semantic UI', 'Picsum API'],
-  },
-  {
-    type: 'self',
-    title: 'Gestor de tienda',
-    imgSrc: '/static/images/java-store-manager.jpg',
-    repo: 'StoreManager',
-    builtWith: ['Java', 'Java Swing', 'JDBC', 'SQL Server'],
-  },
-  {
-    type: 'self',
-    title: 'Reintento minúsculo',
-    imgSrc: '/static/images/tiny-retry.png',
-    repo: 'tiny-retry',
-    builtWith: ['Javascript', 'Node'],
   },
 ]

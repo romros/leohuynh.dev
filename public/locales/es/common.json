@@ -26,6 +26,8 @@
   "menu_projectes": "Proyectos",
   "menu_sobremi": "Sobre mi",
   "menu_curriculum": "Currículum",
+  "menu_articles": "Artículos",
+
   "greetingMessage": "Hola, amigo!",
 
   "introduction": "Soy",
@@ -103,6 +105,11 @@
     "side_title": "Proyectos paralelos",
     "learn_more": "Aprende más",
     "built_with": "Hecho con"
+  },
+
+  "articles": {
+    "description": "Artículos de investigación que he publicado en revistas científicas.",
+    "title": "Artículos"
   },
 
   "pagination": {

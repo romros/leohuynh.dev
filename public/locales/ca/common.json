@@ -15,6 +15,7 @@
   "menu_projectes": "Projectes",
   "menu_sobremi": "Sobre mi",
   "menu_curriculum": "Currículum",
+  "menu_articles": "Articles",
   "greetingMessage": "Hola, company!",
 
   "intro": {
@@ -103,6 +104,11 @@
     "side_title": "Projectes paral·lels",
     "learn_more": "Apendre més",
     "built_with": "Fet amb"
+  },
+
+  "articles": {
+    "description": "Articles de recerca publicats en revistes científiques.",
+    "title": "Articles"
   },
 
   "pagination": {

@@ -26,6 +26,7 @@
   "menu_projectes": "Projects",
   "menu_sobremi": "About",
   "menu_curriculum": "Resume",
+  "menu_articles": "Articles",
   "greetingMessage": "Howdy, fellow!",
 
   "introduction": "I'm",
@@ -103,6 +104,11 @@
     "side_title": "Side projects",
     "learn_more": "Learn more",
     "built_with": "Built with"
+  },
+
+  "articles": {
+    "description": "Research articles published in scientific journals.",
+    "title": "Articles"
   },
 
   "pagination": {
