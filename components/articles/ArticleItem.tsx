@@ -74,7 +74,6 @@ const ArticleItem = ({ article }) => {
         }`}
       >
         <div className="flex items-start pt-12 px-4">
-          <Info size={24} className="mr-2 mt-1" />
           <p>{article.roleDescription}</p>
         </div>
       </div>
@@ -83,7 +82,7 @@ const ArticleItem = ({ article }) => {
         href={generateScholarLink(article.doi)}
         target="_blank"
         rel="noopener noreferrer"
-        className="absolute top-2 left-4 mt-2 inline-block text-blue-500 hover:text-blue-700 dark:hover:text-blue-300 transition flex items-center"
+        className="absolute top-2 left-4 mt-2 text-blue-500 hover:text-blue-700 dark:hover:text-blue-300 transition flex items-center"
       >
         <strong className="dark:text-gray-300">DOI:</strong> {article.doi}
         <ExternalLink className="ml-2" size={14} />

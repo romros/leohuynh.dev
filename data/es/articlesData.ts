@@ -19,9 +19,9 @@ export let articlesData: Article[] = [
     journal: 'Revista de la Sociedad Española del Dolor',
     doi: '10.20986/resed.2017.3555/2016',
     abstract:
-      'El uso de dispositivos móviles inteligentes y aplicaciones para la evaluación y tratamiento de los pacientes con dolor crónico se está extendiendo. Las importantes ventajas de estas alternativas tecnológicas contribuyen a este proceso, entre ellas facilitar el acceso a los tratamientos, incluso desde lugares remotos y con difícil acceso a los recursos sanitarios, ayudar a mejorar los procedimientos clínicos así como a reducir los costes.',
+      'El uso de dispositivos móviles inteligentes y aplicaciones para la evaluación y el tratamiento de pacientes con dolor crónico se está extendiendo. Las importantes ventajas de estas alternativas tecnológicas contribuyen a ello, incluyendo facilitar el acceso a los tratamientos, incluso desde lugares remotos y con acceso difícil a los recursos sanitarios, ayudar a mejorar los procedimientos clínicos y reducir los costos.',
     roleDescription:
-      "Com a desenvolupador, vaig implementar l'aplicació mòbil amb Android i Java, i vaig col·laborar en el disseny tècnic de la recerca.",
+      'Lideré la implementación de estrategias de eLearning para adaptar un tratamiento cognitivo-conductual de modalidad presencial a distancia. Además, dirigí el desarrollo técnico de la aplicación móvil Painometer v2® para Android, utilizando Java, Android SDK y Firebase.',
   },
   {
     category: 'article',
@@ -35,9 +35,9 @@ export let articlesData: Article[] = [
     journal: 'Journal of Health Psychology',
     doi: '10.1177/1359105316650509',
     abstract:
-      'Fibroline is a mobile application with a self-administered cognitive behavioral treatment for young people with fibromyalgia or chronic widespread pain, designed to reduce pain and other common negative symptoms and improve quality of life. Our aims are to report on the usability and feasibility protocols used to assess the app. Two usability cycles were implemented. A group of patients followed the cognitive behavioral treatment intervention to test its feasibility. Qualitative data were collected and content analyses were conducted. The results demonstrated that the app is error-free, easy to use, liked by the users, and acceptable.',
+      'Fibroline es una aplicación móvil con un tratamiento cognitivo-conductual autogestionado para jóvenes con fibromialgia o dolor crónico generalizado, diseñado para reducir el dolor y otros síntomas negativos comunes y mejorar la calidad de vida. Nuestros objetivos son informar sobre los protocolos de usabilidad y viabilidad utilizados para evaluar la aplicación. Se implementaron dos ciclos de usabilidad. Un grupo de pacientes siguió la intervención del tratamiento cognitivo-conductual para probar su viabilidad. Se recopilaron datos cualitativos y se realizaron análisis de contenido. Los resultados demostraron que la aplicación no tiene errores, es fácil de usar, es apreciada por los usuarios y es aceptada.',
     roleDescription:
-      "Vaig desenvolupar l'aplicació mòbil Fibroline per Android amb Java, i vaig participar activament en el disseny tècnic del projecte.",
+      'Me enfoqué en la creación de estrategias de eLearning para trasladar un tratamiento cognitivo-conductual de presencial a distancia. También encabecé el desarrollo de la aplicación Painometer v2® para Android, utilizando Java, Android SDK y Firebase.',
   },
   {
     category: 'article',
@@ -57,9 +57,9 @@ export let articlesData: Article[] = [
     journal: 'Journal of Health Psychology',
     doi: '10.1177/1359105316633284',
     roleDescription:
-      "Vaig contribuir al desenvolupament tècnic del sistema electrònic de mesura d'intensitat de dolor i a l'anàlisi de dades.",
+      'Mi colaboración consistió en digitalizar escalas de dolor crónico, pasando del formato en papel a uno móvil. Se emplearon tecnologías como HTML5 y JavaScript. Finalmente, esta versión digital se incorporó en una aplicación nativa para asegurar su eficiencia y adaptabilidad.',
     abstract:
-      'The objective of this work was to study the agreement between four pain intensity scales when administered electronically: the Numerical Rating Scale-11, the Faces Pain Scale-Revised, the Visual Analogue Scale and the Coloured Analogue Scale. In all, 180 schoolchildren between 12 and 19 years old participated in the study. They had to report the maximum intensity of their most frequent pain using the electronic versions of the four scales. Agreement was calculated using the Bland–Altman method. Results show that the electronic versions of Numerical Rating Scale-11, Coloured Analogue Scale and Visual Analogue Scale can be used interchangeably.',
+      'El objetivo de este trabajo era estudiar la concordancia entre cuatro escalas de intensidad del dolor cuando se administran electrónicamente: la Escala Numérica de Valoración-11, la Escala de Dolor de Caras-Revisada, la Escala Analógica Visual y la Escala Analógica en Colores. En total, participaron en el estudio 180 escolares de entre 12 y 19 años. Debían reportar la intensidad máxima de su dolor más frecuente utilizando las versiones electrónicas de las cuatro escalas. La concordancia se calculó utilizando el método de Bland-Altman. Los resultados muestran que las versiones electrónicas de la Escala Numérica-11, la Escala Analógica en Colores y la Escala Analógica Visual se pueden utilizar de manera intercambiable.',
   },
   {
     category: 'article',
@@ -79,9 +79,9 @@ export let articlesData: Article[] = [
     journal: 'Pain medicine (Malden, Mass.)',
     doi: '10.1111/pme.12859',
     roleDescription:
-      "Vaig col·laborar en el desenvolupament de l'aplicació mòbil i en el disseny tècnic del sistema de mesura de la intensitat del dolor.",
+      'Digitalicé escalas de dolor crónico, llevándolas del papel al formato móvil utilizando HTML5 y JavaScript. Posteriormente, se integró esta solución en una aplicación nativa para garantizar su funcionalidad y adaptabilidad.',
     abstract:
-      'Painometer is a mobile application that includes four pain intensity scales: the Numerical Rating Scale, the Faces Pain Scale-Revised, the mechanical visual analogue scale and the Colored Analogue Scale. The aim of this study was to analyze the validity and agreement of the intensity reports provided by these scales and their traditional counterparts.',
+      'Painometer es una aplicación móvil que incorpora cuatro escalas de intensidad del dolor: la Escala de Valoración Numérica, la Escala de Dolor con Caras-Revisada, la escala analógica visual mecánica y la Escala Analógica en Colores. El objetivo de este estudio fue analizar la validez y la concordancia de los informes de intensidad proporcionados por estas escalas y sus contrapartes tradicionales.',
   },
   {
     category: 'article',
@@ -101,9 +101,9 @@ export let articlesData: Article[] = [
     journal: 'The Journal of Pain',
     doi: '10.1016/j.jpain.2014.04.009',
     roleDescription:
-      "Vaig liderar el desenvolupament de l'app Painometer en Android amb Java i vaig col·laborar en el disseny tècnic de la recerca.",
+      'En este artículo, colaboré activamente en la prueba de la aplicación, implementando diversas versiones y brindando soporte a los usuarios. Además, lideré el desarrollo de Painometer v2® para Android, utilizando Java, Android SDK y Firebase para la gestión de datos.',
     abstract:
-      'Electronic and information technologies are increasingly being used to assess pain. This study aims to 1) introduce Painometer, a smartphone app that helps users to assess pain intensity, and 2) report on its usability (ie, user performance and satisfaction) and acceptability (ie, the willingness to use it) when it is made available to health care professionals and nonprofessionals.',
+      'Las tecnologías electrónicas y de la información se están utilizando cada vez más para evaluar el dolor. Este estudio tiene como objetivos 1) presentar el Painometer, una aplicación para teléfonos móviles que ayuda a los usuarios a evaluar la intensidad del dolor, y 2) informar sobre su usabilidad (es decir, el rendimiento y la satisfacción de los usuarios) y aceptabilidad (es decir, la disposición a utilizarlo) cuando se pone a disposición de profesionales de la salud y no profesionales.',
   },
   {
     category: 'article',
@@ -123,9 +123,9 @@ export let articlesData: Article[] = [
     journal: 'The Clinical journal of pain',
     doi: '10.1097/AJP.0000000000000104',
     roleDescription:
-      "Vaig contribuir al desenvolupament de l'aplicació i al disseny tècnic de la investigació sobre la valoració del dolor en adolescents.",
+      'Contribuí al desarrollo de la aplicación y al diseño técnico de la investigación sobre la evaluación del dolor en adolescentes.',
     abstract:
-      'Objectives: Electronic pain measures are becoming common tools in the assessment of pediatric pain intensity. The aims of this study were (1) to examine the agreement between the verbal and the electronic versions of the 11-point Numerical Rating Scale (NRS-11)(vNRS-11 and eNRS-11, respectively) when used to assess pain intensity in adolescents; and (2) to report participants preferences for each of the 2 alternatives.',
+      'Objetivos: Las medidas electrónicas del dolor se están convirtiendo en herramientas habituales en la evaluación de la intensidad del dolor pediátrico. Los objetivos de este estudio fueron (1) examinar la concordancia entre las versiones verbal y electrónica de la Escala Numérica de Valoración de 11 puntos (ENV-11) (vENV-11 y eENV-11, respectivamente) cuando se utilizan para evaluar la intensidad del dolor en adolescentes; y (2) informar sobre las preferencias de los participantes por cada una de las 2 alternativas.',
   },
   {
     category: 'article',
@@ -145,9 +145,9 @@ export let articlesData: Article[] = [
     journal: 'Knowledge Eng. Review',
     doi: '10.1017/S0269888911000142',
     roleDescription:
-      'Com a desenvolupador en bioinformàtica, vaig utilitzar Python, Perl i C per gestionar i analitzar dades de tumors cerebrals, i vaig col·laborar en el disseny tècnic de la recerca.',
+      'En el proyecto, implementé una ontología para clasificar tumores cerebrales y una API para conectar agentes distribuidos con esta ontología. Utilicé Java, con el respaldo de tecnologías como RDF, SPARQL y GraphQL. También integré librerías para mejorar la comunicación entre los agentes.',
     abstract:
-      'Currently, biological databases (DBs) are a common tool to complement the research of a wide range of biomedical disciplines, but there are only a few specialized medical DBs for human brain tumour magnetic resonance spectroscopy (MRS) data; they typically store a limited range of biological data (i.e. clinical information, magnetic resonance imaging and MRS data) and are not offered as open-source Structured Query Language relational DB schemas. We present a novel approach to biological DBs: a distributed Web-accessible DB for storing and managing clinical and biomedical data related to brain tumours from different clinical centres. This tool is designed for multi-platform systems with dissimilar DB management systems. Being the main data repository of the HealthAgents (HA) project, it uses multi-agent technology and allows the centres to share data and obtain diagnosis classifications from other centres distributed around the world in a reliable way.The HA project aims to create an agent-based distributed decision support system (DSS) to assist doctors to provide a brain tumour diagnosis and prognosis. The HA DB enables the DSS to totally integrate with its Graphical User Interface to perform classifications with the stored data and visualize the results using the HA distributed agents framework. This new feature converts the system presented in the first application in the world to combine a storage and management tool for brain tumour data and a complete Web-based DSS to obtain automatic diagnosis.',
+      'Actualmente, las bases de datos biológicas (BD) son una herramienta común para complementar la investigación en una amplia gama de disciplinas biomédicas. Sin embargo, solo existen unas pocas BD médicas especializadas para los datos de la espectroscopía de resonancia magnética (ERM) de tumores cerebrales humanos. Estas bases de datos típicamente almacenan una gama limitada de datos biológicos (como información clínica, imágenes por resonancia magnética y datos de ERM) y no se presentan como esquemas de bases de datos relacionales (SQL). Presentamos un enfoque innovador para las bases de datos biológicas: una base de datos distribuida accesible a través de la web para almacenar y gestionar datos clínicos y biomédicos relacionados con tumores cerebrales de diferentes centros clínicos. Esta herramienta está diseñada para sistemas multiplataforma con sistemas de gestión de bases de datos diversos. Siendo el recurso principal de datos del proyecto HealthAgents (HA), utiliza tecnología multiagente y permite que los centros compartan datos y obtengan clasificaciones de diagnóstico de otros centros distribuidos en todo el mundo de manera confiable. El proyecto HA tiene como objetivo crear un sistema de apoyo a la toma de decisiones distribuido basado en agentes (DSS) para ayudar a los médicos a proporcionar un diagnóstico y pronóstico de tumores cerebrales. La BD de HA permite que el DSS se integre completamente con su interfaz gráfica de usuario para realizar clasificaciones con los datos almacenados y visualizar los resultados mediante el marco de trabajo de agentes distribuidos de HA. Esta nueva característica convierte al sistema presentado en la primera aplicación en el mundo que combina una herramienta de almacenamiento y gestión de datos de tumores cerebrales con un DSS completo basado en la web para obtener diagnósticos automáticos.',
   },
   {
     category: 'article',
@@ -171,9 +171,9 @@ export let articlesData: Article[] = [
     journal: 'The Knowledge Engineering Review',
     doi: '10.1017/S0269888911000130',
     roleDescription:
-      'Vaig utilitzar Java amb llibreries de web semàntica i APIs com SPARQL, OWL, RDF, GraphQL per desenvolupar solucions en la diagnosi de tumors cerebrals.',
+      'En este artículo, mi responsabilidad principal fue la implementación de una ontología diseñada por los colaboradores. Esta implementación se realizó utilizando Java, SPARQL y RDF. El objetivo principal de esta tarea fue facilitar el uso de la ontología por agentes distribuidos, asegurando una integración efectiva y eficiente en entornos computacionales distribuidos.',
     abstract:
-      'In this paper we present our experience of representing the knowledge behind HealthAgents (HA), a distributed decision support system for brain tumour diagnosis. Our initial motivation came from the distributed nature of the information involved in the system and has been enriched by clinicians’ requirements and data access restrictions. We present in detail the steps we have taken towards building our ontology starting from knowledge acquisition to data access and reasoning. We motivate our representational choices and show our results using domain examples used by clinical partners in HA.',
+      'En este artículo presentamos nuestra experiencia en la representación del conocimiento detrás de HealthAgents (HA), un sistema distribuido de apoyo a la toma de decisiones para el diagnóstico de tumores cerebrales. Nuestra motivación inicial surgió de la naturaleza distribuida de la información involucrada en el sistema y se ha enriquecido con las necesidades de los profesionales de la salud y las restricciones de acceso a los datos. Presentamos detalladamente los pasos que hemos seguido para construir nuestra ontología, desde la adquisición de conocimiento hasta el acceso a los datos y el razonamiento. Motivamos nuestras elecciones de representación y mostramos nuestros resultados utilizando ejemplos del dominio que han sido empleados por los socios clínicos de HA.',
   },
   {
     category: 'inproceedings',
@@ -199,9 +199,9 @@ export let articlesData: Article[] = [
     title: 'Conceptual Graphs Based Information Retrieval in HealthAgents',
     doi: '10.1109/CBMS.2007.36',
     roleDescription:
-      "En aquest projecte, vaig treballar en la recuperació d'informació basada en gràfics conceptuals i vaig utilitzar Java amb tecnologies de web semàntica.",
+      'En el artículo, aporté una herramienta de desarrollo para el proyecto que visualiza la ontología y admite consultas con SPARQL y GraphQL. Una característica clave es mostrar las respuestas en forma de gráficos visuales. Utilicé tecnologías como Java, SPARQL, GraphQL, RDF y OWL para crearla.',
     abstract:
-      'This paper focuses on the problem of representing, in a meaningful way, the knowledge involved in the HealthAgents project. Our work is motivated by the complexity of representing electronic healthcare records in a consistent manner. We present HADOM (HealthAgents domain ontology) which conceptualises the required HealthAgents information and propose describing the sources knowledge by the means of conceptual graphs (CGs). This allows to build upon the existing ontology permitting for modularity and flexibility. The novelty of our approach lies in the ease with which CGs can be placed above other formalisms and their potential for optimised querying and retrieval.',
+      'Este artículo se centra en el problema de representar, de manera significativa, el conocimiento involucrado en el proyecto HealthAgents. Nuestro trabajo está motivado por la complejidad de representar los registros electrónicos de salud de manera coherente. Presentamos HADOM (ontología del dominio HealthAgents), que conceptualiza la información necesaria de los HealthAgents y proponemos describir el conocimiento de las fuentes mediante gráficos conceptuales (GCs). Esto permite construir sobre la ontología existente, permitiendo modularidad y flexibilidad. La novedad de nuestro enfoque radica en la facilidad con la que los GCs se pueden situar sobre otros formalismos y en su potencial para consultas y recuperaciones optimizadas.',
   },
   {
     category: 'article',
@@ -214,9 +214,9 @@ export let articlesData: Article[] = [
     journal: 'Bioinformatics (Oxford, England)',
     doi: '10.1093/bioinformatics/btg326',
     roleDescription:
-      'Com a desenvolupador en bioinformàtica, vaig usar Python, Perl i C per detectar i analitzar repeticions exactes en seqüències genòmiques.',
+      'En mi proyecto final de grado en Ingeniería Informática, presenté este artículo en el que desarrollé un algoritmo optimizado para detectar patrones repetidos en secuencias genómicas, superando otras soluciones en eficiencia. Para su implementación, utilicé C, y para la interfaz de usuario, opté por Perl y HTML.',
     abstract:
-      'We have developed a program to determine the number, length and position of exact consecutive repeats of short sequences in DNA fragments or whole genomes. The program also gives the statistical significance of results by comparing them with those expected for a random sequence generated according to a Markovian model.',
+      'Hemos creado un programa para determinar el número, la longitud y la posición de repeticiones consecutivas exactas de secuencias cortas en fragmentos de ADN o genomas completos. Además, el programa proporciona la significancia estadística de los resultados mediante su comparación con los resultados esperados para una secuencia aleatoria generada según un modelo markoviano.',
   },
   {
     category: 'article',
@@ -238,8 +238,8 @@ export let articlesData: Article[] = [
     journal: 'Nucleic acids research',
     doi: '10.1093/nar/gkg605',
     abstract:
-      'In this paper we present several web-based tools to identify conserved patterns in sequences. In particular we present details on the functionality of PROMO version 2.0, a program for the prediction of transcription factor binding site in a single sequence or in a group of related sequences and, of MALGEN, a tool to visualize sequence correspondences among long DNA sequences. The web tools and associated documentation can be accessed at http://www.lsi.upc.es/~alggen (RESEARCH link).',
+      'En este artículo presentamos varias herramientas basadas en web para identificar patrones conservados en secuencias. En concreto, detallamos la funcionalidad de PROMO versión 2.0, un programa para predecir los sitios de unión de los factores de transcripción en una sola secuencia o en un grupo de secuencias relacionadas, y de MALGEN, una herramienta para visualizar las correspondencias de secuencia entre secuencias largas de ADN. Las herramientas web y la documentación asociada se pueden consultar en http://www.lsi.upc.es/~alggen (enlace INVESTIGACIÓN).',
     roleDescription:
-      "Vaig contribuir al desenvolupament d'eines per identificar patrons en seqüències biològiques, utilitzant principalment Python i Perl.",
+      'Contribuí al desarrollo de herramientas para identificar patrones en secuencias biológicas, utilizando principalmente Python y Perl.',
   },
 ]
