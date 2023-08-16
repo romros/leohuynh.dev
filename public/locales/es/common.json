@@ -102,11 +102,11 @@
   },
 
   "projects": {
-    "projects_description": "Mis proyectos de código abierto que he construido con mis compañeros de trabajo.",
+    "projects_description": "Algunos de mis proyectos profesionales y personales",
     "projects_title": "Proyectos",
-    "work_title": "Trabajo",
+    "work_title": "Proyectos profesionales",
     "side_title": "Proyectos paralelos",
-    "learn_more": "Aprende más",
+    "learn_more": "Ver más",
     "built_with": "Hecho con"
   },
 

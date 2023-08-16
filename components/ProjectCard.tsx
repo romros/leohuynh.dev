@@ -54,7 +54,7 @@ export function ProjectCard({ project }: ProjectCardProps) {
           ) : (
             <Link
               href={url}
-              className="text-base font-medium leading-6 text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+              className="text-base font-medium leading-6 text-blue-500 hover:text-blue-700 dark:hover:text-blue-300 transition "
               aria-label={`Link to ${title}`}
             >
               <span data-umami-event="project-learn-more">{t('projects.learn_more')} &rarr;</span>
