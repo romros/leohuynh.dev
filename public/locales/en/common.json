@@ -10,14 +10,15 @@
   },
 
   "intro": {
-    "shortIntro1": "Professional with over 20 years in technology, expert in frontend and backend technologies, with experience leading processes, managing technological projects, and developing software solutions in startups, private foundations, educational institutions, and research centers.",
+    "shortIntro1": "Professional with over 20 years in technology, expert in data and backend technologies, with experience leading processes, managing technological projects, and developing software solutions in startups, private foundations, educational institutions, and research centers.",
     "shortIntro2": "I currently work at the .cat Foundation.",
-    "projectManager": "IT project and process manager",
-    "fullstackdev": "Full Stack Developer",
+    "projectManager": "Senior Backend Developer",
+    "fullstackdev": "Senior Data Engineer",
     "seniordev": "Senior Software Engineer",
     "openInEmailClient": "Open in email client",
     "emailCopied": "Copied!",
-    "copyEmail": "Copy email"
+    "copyEmail": "Copy email",
+    "checkCertification": "Verify 🔗"
   },
 
   "happyReading": "Happy reading",

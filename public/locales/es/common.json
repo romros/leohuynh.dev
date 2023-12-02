@@ -10,14 +10,15 @@
   },
 
   "intro": {
-    "shortIntro1": "Profesional con más de 20 años en tecnología, experto en tecnologías frontend y backend, con experiencia liderando procesos, gestionando proyectos tecnológicos y desarrollando soluciones de software en startups, fundaciones privadas, instituciones educativas y centros de investigación.",
+    "shortIntro1": "Profesional con más de 20 años en tecnología, experto en tecnologías de datos y backend, con experiencia liderando procesos, gestionando proyectos tecnológicos y desarrollando soluciones de software en startups, fundaciones privadas, instituciones educativas y centros de investigación.",
     "shortIntro2": "Actualmente trabajo en la Fundación .cat",
-    "projectManager": "Gestor de Proyectos y Procesos TI",
-    "fullstackdev": "Desarrollador Full Stack",
+    "projectManager": "Programador de Backend Sènior",
+    "fullstackdev": "Ingeniero de Datos",
     "seniordev": "Ingeniero de Software Senior",
     "openInEmailClient": "Abrir en el cliente de correo",
     "emailCopied": "Copiado!",
-    "copyEmail": "Copia la dirección de correo"
+    "copyEmail": "Copia la dirección de correo",
+    "checkCertification": "Verifica 🔗"
   },
 
   "happyReading": "Feliz lectura",

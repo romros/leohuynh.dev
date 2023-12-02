@@ -37,10 +37,11 @@ export default function Home() {
         <div className="mt-0 flex flex-col items-center justify-start space-y-4">
           <div className="mt-0 flex flex-col items-center justify-start space-y-4">
             <a
-              href="https://www.credly.com/earner/earned/badge/b74a8a79-d07a-4c8c-86f1-4a34cf9d019b"
+              href="https://www.credly.com/badges/b74a8a79-d07a-4c8c-86f1-4a34cf9d019b/public_url"
               target="_blank"
               rel="noopener noreferrer"
               className="flex flex-col items-center justify-center"
+              data-umami-event="spring_boot-go_to_certification"
             >
               <Image
                 src="/static/images/spring_boot_certification.png" // Ruta al teu certificat
@@ -50,7 +51,7 @@ export default function Home() {
                 className="shadow-md"
               />
               <span className="mt-2 text-blue-600 hover:text-blue-800 transition duration-300">
-                Veure Certificat...
+                {t('intro.checkCertification')}
               </span>
             </a>
           </div>

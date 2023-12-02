@@ -19,14 +19,15 @@
   "greetingMessage": "Hola, company!",
 
   "intro": {
-    "shortIntro1": "Professional amb més de 20 anys en tecnologia, expert en tecnologies frontend i backend, amb experiència liderant processos, gestionant projectes tecnològics i desenvolupant solucions de programari en startups, fundacions privades, institucions educatives i centres de recerca.",
+    "shortIntro1": "Professional amb més de 20 anys en tecnologia, expert en tecnologies de dades i backend, amb experiència liderant processos, gestionant projectes tecnològics i desenvolupant solucions de programari en startups, fundacions privades, institucions educatives i centres de recerca.",
     "shortIntro2": "Actualment treballo a la Fundacio .cat",
     "projectManager": "Programador de Backend Sènior",
     "fullstackdev": "Enginyer de Dades",
     "seniordev": "Enginyer de Programari Sènior",
     "openInEmailClient": "Obre en el client de correu",
     "emailCopied": "Copiat!",
-    "copyEmail": "Copia l'adreça de correu"
+    "copyEmail": "Copia l'adreça de correu",
+    "checkCertification": "Verifica 🔗"
   },
 
   "introduction": "Sóc",
