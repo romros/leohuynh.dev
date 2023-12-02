@@ -72,21 +72,21 @@ const RoleImages = ({ isAnimated2, isAnimated3 }) => (
   <div className="grid grid-cols-2 gap-4">
     <h1 className="mb-5 font-bold font-poppins">
       <span
-        className={`text-8xl md:text-8xl lg:text-9xl inline-block subpixel-antialiased ${
+        className={`text-6xl md:text-6xl lg:text-7xl inline-block subpixel-antialiased ${
           isAnimated2 && 'first-word-gradient'
         }`}
       >
         {' '}
-        Tech{' '}
+        Sr Backend{' '}
       </span>
       <br />
       <span
-        className={`text-8xl md:text-8xl lg:text-9xl inline-block subpixel-antialiased ${
+        className={`text-6xl md:text-6xl lg:text-7xl inline-block subpixel-antialiased ${
           isAnimated3 && 'second-word-gradient'
         }`}
       >
         {' '}
-        Lead{' '}
+        Developer{' '}
       </span>
     </h1>
     <div className="flex justify-start md:justify-end items-center">

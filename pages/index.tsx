@@ -34,7 +34,27 @@ export default function Home() {
             <p className="mt-8 text-neutral xl:leading-loose">{t('intro.shortIntro2')} </p>
           </div>
         </div>
-        <div className="mt-16 pb-6 h-full flex flex-col items-center justify-start">
+        <div className="mt-0 flex flex-col items-center justify-start space-y-4">
+          <div className="mt-0 flex flex-col items-center justify-start space-y-4">
+            <a
+              href="https://www.credly.com/earner/earned/badge/b74a8a79-d07a-4c8c-86f1-4a34cf9d019b"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex flex-col items-center justify-center"
+            >
+              <Image
+                src="/static/images/spring_boot_certification.png" // Ruta al teu certificat
+                alt="Spring Certified Professional 2023"
+                width={200} // Ajusta aquestes dimensions segons les necessitats
+                height={150}
+                className="shadow-md"
+              />
+              <span className="mt-2 text-blue-600 hover:text-blue-800 transition duration-300">
+                Veure Certificat...
+              </span>
+            </a>
+          </div>
+
           <EmailButton email="romanroset@proton.me" />
           <SocialAccounts
             showGithub={true}
