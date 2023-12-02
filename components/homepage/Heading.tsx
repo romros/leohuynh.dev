@@ -77,11 +77,11 @@ const RoleImages = ({ isAnimated2, isAnimated3 }) => (
         }`}
       >
         {' '}
-        Sr Backend{' '}
+        Senior Backend{' '}
       </span>
       <br />
       <span
-        className={`text-6xl md:text-6xl lg:text-7xl inline-block subpixel-antialiased ${
+        className={`text-3xl md:text-3xl lg:text-4xl inline-block subpixel-antialiased ${
           isAnimated3 && 'second-word-gradient'
         }`}
       >
